@@ -4,7 +4,7 @@ on:
   # Runs only when you create a tag with the 'deploy-' prefix
   push:
     tags:
-      - 'deploy-*'
+      - 'v*.*.*'
 
 permissions:
   contents: read

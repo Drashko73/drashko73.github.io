@@ -39,7 +39,7 @@ This repository contains my personal portfolio and blog website, deployed using 
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages when a git tag with the prefix `deploy-` is pushed to the repository.
+This site is automatically deployed to GitHub Pages when a git tag in format `v*.*.*` is pushed to the repository.
 
 To deploy a new version:
 
@@ -51,8 +51,8 @@ To deploy a new version:
 
 2. Create and push a new deployment tag
    ```bash
-   git tag deploy-v1.0.0
-   git push origin deploy-v1.0.0
+   git tag v1.0.0
+   git push origin v1.0.0
    ```
 
 ## Project Structure
