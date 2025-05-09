@@ -130,7 +130,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold mb-4 text-primary-700 dark:text-primary-300">Degrees and Certifications</h2>
         
         <ul className="list-disc pl-6 space-y-3">
-          <li>Diploma from the Mathematical Institute of the Serbian Academy of Sciences and Arts (SASA) for successfully completing the project Heuristics for the Research Practice Scheduling Problem.</li>
+          <li>Diploma from the Mathematical Institute of the Serbian Academy of Sciences and Arts (SASA) for successfully completing the project <span className='italic'>Heuristics for the Research Practice Scheduling Problem.</span></li>
           <li>FCE (First Certificate in English): Cambridge English exam certificate with an overall grade of B. Individual scores: Speaking- A, Reading- A, Use of English- B, Listening- B, Writing- B.</li>
           <li>Huawei ICT Academy Certificate for completing the Python Basics course.</li>
           <li>Certificate of Completion for the Huawei Seeds for the Future program.</li>
