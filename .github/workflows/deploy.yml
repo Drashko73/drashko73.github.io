@@ -1,10 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Runs only when you create a tag with the 'deploy-' prefix
+  # Run on pushes to the main branch instead of tags
   push:
-    tags:
-      - 'v*.*.*'
+    branches:
+      - main
 
 permissions:
   contents: read

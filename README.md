@@ -39,7 +39,7 @@ This repository contains my personal portfolio and blog website, deployed using 
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages when a git tag in format `v*.*.*` is pushed to the repository.
+This site is automatically deployed to GitHub Pages when code is pushed to the `main` branch. The deployment process is handled by GitHub Actions.
 
 To deploy a new version:
 
@@ -47,12 +47,7 @@ To deploy a new version:
    ```bash
    git add .
    git commit -m "Your commit message"
-   ```
-
-2. Create and push a new deployment tag
-   ```bash
-   git tag v1.0.0
-   git push origin v1.0.0
+   git push origin main
    ```
 
 ## Project Structure
