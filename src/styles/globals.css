@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base light theme (default) */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 245, 245, 245;
+}
+
+/* Dark theme - applied when .dark class is on html or when system prefers dark mode and no override class exists */
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 10, 10;
+  --background-end-rgb: 30, 30, 30;
+}
+
+/* Light theme - explicit class to override system preference */
+.light {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 245, 245, 245;
+}
+
+/* System preference fallback when no override class exists */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light):not(.dark) {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 10, 10, 10;
+    --background-end-rgb: 30, 30, 30;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-narrow {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-primary-700 dark:text-primary-300 mb-6;
+  }
+  
+  .button-primary {
+    @apply bg-primary-600 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-md transition-colors;
+  }
+  
+  /* Mobile navigation styling */
+  .mobile-nav-container {
+    @apply relative z-50;
+  }
+}
