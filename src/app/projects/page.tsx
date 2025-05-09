@@ -218,8 +218,43 @@ export default function ProjectsPage() {
             </div>
           </div>
         </div>
-        
+
         {/* Project 5 */}
+        <div className="border dark:border-gray-700 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+          <div className="h-48 bg-gray-200 dark:bg-gray-800 flex items-center justify-center text-gray-500 dark:text-gray-400 relative">
+            <Image
+              src="/images/projects/pathfinding.png"
+              alt="Pathfinding Algorithms Visualization Project Image"
+              fill
+              priority
+              className="object-cover"
+              draggable="false"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-xl font-semibold mb-2">Pathfinding Algorithms Visualization</h3>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">
+              Web application that visualizes pathfinding algorithms in real-time, allowing users to see how different algorithms work.
+            </p>
+            <div className="mb-4 flex flex-wrap gap-2">
+              <span className="inline-block bg-gray-200 dark:bg-gray-700 rounded-full px-3 py-1 text-sm">HTML</span>
+              <span className="inline-block bg-gray-200 dark:bg-gray-700 rounded-full px-3 py-1 text-sm">CSS</span>
+              <span className="inline-block bg-gray-200 dark:bg-gray-700 rounded-full px-3 py-1 text-sm">JavaScript</span>
+              <span className="inline-block bg-gray-200 dark:bg-gray-700 rounded-full px-3 py-1 text-sm">Python</span>
+              <span className="inline-block bg-gray-200 dark:bg-gray-700 rounded-full px-3 py-1 text-sm">Graph Algorithms</span>
+            </div>
+            <div className="flex justify-between items-center">
+              <Link href="/projects/pathfinding-algorithms" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
+                View Details
+              </Link>
+              <a href="https://github.com/Drashko73/Pathfinding-algorithms" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
+                GitHub Repository →
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        {/* Project 6 */}
         <div className="border dark:border-gray-700 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
           <div className="h-48 bg-gray-200 dark:bg-gray-800 flex items-center justify-center text-gray-500 dark:text-gray-400 relative">
             <Image
