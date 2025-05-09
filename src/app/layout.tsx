@@ -50,7 +50,6 @@ export default function RootLayout({
                 <div className="flex flex-wrap justify-center gap-4 md:space-x-4 md:gap-0">
                   <a href="https://github.com/Drashko73" className="hover:text-primary-200">GitHub</a>
                   <a href="https://linkedin.com/in/radovan-draskovic" className="hover:text-primary-200">LinkedIn</a>
-                  <a href="https://twitter.com/your-twitter" className="hover:text-primary-200">Twitter</a>
                   <a href="https://www.youtube.com/@Drashko73" className="hover:text-primary-200">YouTube</a>
                 </div>
               </div>
