@@ -11,9 +11,8 @@ export default function AboutPage() {
           that make a difference. I enjoy solving complex problems and creating efficient, user-friendly solutions.
         </p>
         
-        <p>
-          My journey in tech began in high school, when I first experimented with C and Python to automate small tasks. That early spark led me to pursue a Bachelor of Software Engineering at the University of Kragujevac, where I've been honing my skills in full-stack development, machine learning, and distributed systems. Beyond coursework, I've contributed to the EU-funded NEMO project—designing and  
-          deploying the MetaFOX AutoML component—and interned at Inovatec Systems, building real-time Angular/.NET apps.
+        <p className="text-lg">
+          My tech journey began during my university years, where I first experimented with C and Python for task automation. That initial spark ignited my passion to master data structures and algorithms through LeetCode problem-solving. At university, I've developed expertise in full-stack development, machine learning, and distributed systems. Beyond academics, I've contributed significantly to the EU-funded NEMO project by designing and deploying the MetaFOX AutoML component, and gained industry experience at Inovatec Systems, where I built real-time applications using Angular and .NET technologies.
         </p>
         
         <p>
