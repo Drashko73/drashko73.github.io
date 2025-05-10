@@ -57,6 +57,8 @@ src/
 ├── app/               # Next.js App Router
 │   ├── about/         # About page
 │   ├── blog/          # Blog page and individual blog posts
+│   ├── contact/       # Contact page
+│   ├── experience/    # Experience page
 │   ├── projects/      # Projects page
 │   ├── layout.tsx     # Root layout with navigation and footer
 │   └── page.tsx       # Home page
