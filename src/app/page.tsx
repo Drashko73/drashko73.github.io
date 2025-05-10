@@ -99,6 +99,7 @@ export default function HomePage() {
                 priority
                 className="object-scale-down"
                 draggable="false"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
             <div className="p-6">
@@ -167,6 +168,7 @@ export default function HomePage() {
                 priority
                 className="object-scale-down"
                 draggable="false"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
             <div className="p-6">

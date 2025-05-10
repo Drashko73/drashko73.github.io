@@ -1,6 +1,4 @@
-// filepath: c:\Users\radov\Personal\drashko73.github.io\src\app\projects\projsync\page.tsx
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function ProjSyncPage() {
   return (
@@ -38,13 +36,14 @@ export default function ProjSyncPage() {
               </a>
             </div>
           </div>
-          <div className="flex-1 flex justify-center">
-            <div className="relative h-[300px] w-full max-w-[500px]">
+          <div className="flex-1 flex justify-center w-full">
+            <div className="relative h-[250px] sm:h-[300px] w-full max-w-[500px]">
               <Image 
                 src="/images/projects/projsync.png" 
                 alt="ProjSync Logo" 
                 fill
                 className="object-contain"
+                sizes="(max-width: 768px) 100vw, 500px"
               />
             </div>
           </div>
