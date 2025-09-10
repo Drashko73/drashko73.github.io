@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} min-h-screen bg-white dark:bg-gray-900 dark:text-white transition-colors duration-300`}>
+      <body className={`${inter.className} min-h-screen bg-white dark:bg-gray-900 dark:text-white transition-colors duration-300 flex flex-col`}>
         <ThemeProvider defaultTheme="system" storageKey="theme">
           <header className="bg-primary-700 dark:bg-primary-900 text-white shadow-md relative">
             <nav className="container-narrow py-5">
@@ -40,7 +40,7 @@ export default function RootLayout({
               </div>
             </nav>
           </header>
-          <main className="container-narrow py-8 text-gray-900 dark:text-gray-100">
+          <main className="container-narrow py-8 text-gray-900 dark:text-gray-100 flex-grow">
             {children}
           </main>
           <footer className="bg-primary-800 dark:bg-primary-950 text-white">

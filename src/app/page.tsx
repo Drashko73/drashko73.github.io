@@ -211,30 +211,22 @@ export default function HomePage() {
       {/* Latest Blog Posts */}
       <section>
         <h2 className="section-heading">Latest from the Blog</h2>
-        <div className="space-y-6">
-          <div className="border dark:border-gray-700 rounded-lg p-6 hover:shadow-md transition-shadow">
-            <div className="text-sm text-gray-400 dark:text-gray-400 mb-2">May 5, 2025</div>
-            <h3 className="text-xl font-semibold mb-2">How I Built My Portfolio with Next.js</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">
-              In this post, I share my experience building a modern portfolio website using Next.js and Tailwind CSS...
-            </p>            <Link href="/blog/how-i-built-portfolio" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
-              Read More →
+        <div className="border dark:border-gray-700 rounded-lg p-8 hover:shadow-md transition-shadow text-center">
+          <div className="flex flex-col items-center justify-center space-y-4">
+            <div className="bg-primary-100 dark:bg-primary-900/30 rounded-full p-4 mb-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-primary-600 dark:text-primary-400">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+              </svg>
+            </div>
+            <h3 className="text-2xl font-semibold mb-2">Coming Soon!</h3>
+            <p className="text-gray-600 dark:text-gray-400 max-w-lg mx-auto mb-4">
+              I'm working on some interesting articles to share with you. Blog posts will be available shortly.
+              Stay tuned for insights on software development, technology trends, and my project experiences.
+            </p>
+            <Link href="/blog" className="button-primary">
+              Visit Blog Page
             </Link>
           </div>
-            <div className="border dark:border-gray-700 rounded-lg p-6 hover:shadow-md transition-shadow">
-            <div className="text-sm text-gray-400 dark:text-gray-400 mb-2">April 20, 2025</div>
-            <h3 className="text-xl font-semibold mb-2">Best Practices for Code Organization</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Exploring different approaches to organize code in large projects and how it impacts maintainability...
-            </p>            <Link href="/blog/code-organization-practices" className="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
-              Read More →
-            </Link>
-          </div>
-        </div>
-        <div className="mt-6 text-center">
-          <Link href="/blog" className="button-primary">
-            View All Posts
-          </Link>
         </div>
       </section>
     </div>
