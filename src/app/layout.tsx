@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} min-h-screen bg-white dark:bg-gray-900 dark:text-white transition-colors duration-300 flex flex-col`}>
+      <body className={`${inter.className} min-h-screen bg-white dark:bg-gray-900 dark:text-white transition-colors duration-300`}>
         <ThemeProvider defaultTheme="system" storageKey="theme">
           <header className="bg-primary-700 dark:bg-primary-900 text-white shadow-md relative">
             <nav className="container-narrow py-5">
