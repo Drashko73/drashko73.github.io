@@ -74,7 +74,7 @@ export default function HomePage() {
         <div className="flex-1 flex justify-center">
           <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden">
             <Image 
-              src="/images/profile.png" 
+              src="/images/profile.jpg" 
               alt="Drashko's profile photo" 
               fill
               priority
