@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Radovan Draskovic - Portfolio & Blog',
   description: 'My personal portfolio and blog website',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/images/profile.jpg',
     apple: '/apple-touch-icon.png',
   },
 }
