@@ -113,8 +113,13 @@ export default function AboutPage() {
         
         <div className="border-l-2 border-primary-300 pl-4 space-y-6">
           <div>
-            <div className="text-sm text-gray-500 dark:text-gray-400">2021 - Present</div>
-            <h3 className="font-medium">Bachelor of Software Engineering (GPA 9.84/10.00)</h3>
+            <div className="text-sm text-gray-500 dark:text-gray-400">2025 - Present</div>
+            <h3 className="font-medium">Master of Data Science</h3>
+            <div>Faculty of Science, University of Kragujevac — Kragujevac, Serbia</div>
+          </div>
+          <div>
+            <div className="text-sm text-gray-500 dark:text-gray-400">2021 - 2025</div>
+            <h3 className="font-medium">Bachelor of Software Engineering (GPA 9.88/10.00)</h3>
             <div>Faculty of Science, University of Kragujevac — Kragujevac, Serbia</div>
           </div>
           <div>
