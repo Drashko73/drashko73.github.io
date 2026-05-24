@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Drashko73/drashko73.github.io#readme",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "next": "^14.0.4",
+    "next": "^16.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
